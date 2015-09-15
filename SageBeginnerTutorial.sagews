@@ -1,4 +1,4 @@
-︠5582fd8f-1c81-4c61-b195-00ee2a5fdeddi︠
+︠5582fd8f-1c81-4c61-b195-00ee2a5fdeddsi︠
 %html
 <center><h1>Sage Beginner's Workshop</h1></center>
 
@@ -15,11 +15,11 @@ Note that this worksheet is based upon an earlier one by Theron Hitchman. That w
 <h2>Worksheet Basics</h2>
 
 The first thing to note is that a worksheet is made up of "cells." These are where you will do your programming. To evaluate a cell, you press [Shift]+[Enter]. Try it now in the cell below. Add 5 and 4.
-︡1cfd9f95-e591-403e-8d16-fc77aea42917︡{"html":"<center><h1>Sage Beginner's Workshop</h1></center>\n\n<p>\nThis is an introduction to the basic functionality of Sage, with an emphasis on seeing how to handle a worksheet and how to get more detailed help. We will point out a little bit of the power that Sage has hiding in it, but this is <b>not</b> a full-fledged tutorial. Down at the bottom of the page you will find links to some more resources.\n</p>\n\n<hr />\n\nNote that this worksheet is based upon an earlier one by Theron Hitchman. That worksheet, <a href=\"http://uni.sagenb.org/home/pub/0/\">available here</a>, was designed for the Sage Notebook interface. This one is written with the SageMathCloud worksheet style in mind. Other contributors include: Harald Schilly, Gustav Delius.\n\n<hr />\n\n<h2>Worksheet Basics</h2>\n\nThe first thing to note is that a worksheet is made up of \"cells.\" These are where you will do your programming. To evaluate a cell, you press [Shift]+[Enter]. Try it now in the cell below. Add 5 and 4."}︡
-︠8cd31a74-73ca-434a-996d-b2339b8f3160︠
+︡6b4cccee-c234-4550-82a8-0e60242eb2bc︡{"html":"<center><h1>Sage Beginner's Workshop</h1></center>\n\n<p>\nThis is an introduction to the basic functionality of Sage, with an emphasis on seeing how to handle a worksheet and how to get more detailed help. We will point out a little bit of the power that Sage has hiding in it, but this is <b>not</b> a full-fledged tutorial. Down at the bottom of the page you will find links to some more resources. (Borrowed from: <a href=\"https://github.com/sagemath/cloud-examples.git\">https://github.com/sagemath/cloud-examples.git</a>)\n</p>\n\n<hr />\n\nNote that this worksheet is based upon an earlier one by Theron Hitchman. That worksheet, <a href=\"http://uni.sagenb.org/home/pub/0/\">available here</a>, was designed for the Sage Notebook interface. This one is written with the SageMathCloud worksheet style in mind. Other contributors include: Harald Schilly, Gustav Delius.\n\n<hr />\n\n<h2>Worksheet Basics</h2>\n\nThe first thing to note is that a worksheet is made up of \"cells.\" These are where you will do your programming. To evaluate a cell, you press [Shift]+[Enter]. Try it now in the cell below. Add 5 and 4.\n"}︡
+︠8cd31a74-73ca-434a-996d-b2339b8f3160s︠
 5+4
-︡d2750b35-fd98-4d38-9fa4-262b63c205ac︡
-︠df84264c-fbe7-43b9-97a2-45e094363aebi︠
+︡2f00645e-a0b7-406e-9181-70471898274a︡{"stdout":"9\n"}︡
+︠df84264c-fbe7-43b9-97a2-45e094363aebsi︠
 %html
 <p>
 Note that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active cell has a light grey background cell.
@@ -30,9 +30,10 @@ Another way to evaluate a cell is to use the "run" button at the top of the work
 <p>
 Try that version now with the simple computation below.
 <p>
-︡a76ef72f-2a0d-46ae-a729-6f53cd066b5f︡{"html":"<p>\nNote that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active cell has a light grey background cell.\n</p>\n<p>\nAnother way to evaluate a cell is to use the \"run\" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word \"run\" on it. If not, just look for the triangle pointing to the right.\n</p>\n<p>\nTry that version now with the simple computation below.\n<p>"}︡
-︠640cc705-2c35-4751-804b-62f46a23e2bf︠
+︡4d242c8b-4c47-4d0c-b8b5-c37b44690973︡{"html":"<p>\nNote that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active cell has a light grey background cell.\n</p>\n<p>\nAnother way to evaluate a cell is to use the \"run\" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word \"run\" on it. If not, just look for the triangle pointing to the right.\n</p>\n<p>\nTry that version now with the simple computation below.\n<p>\n"}︡
+︠640cc705-2c35-4751-804b-62f46a23e2bfs︠
 67-5
+︡1bbda76e-4fe8-4673-a874-88a3e7839a73︡{"stdout":"62\n"}︡
 ︠aa88d77c-911e-4ea7-9316-8bb11a061c17i︠
 %md
 To keep things rolling, you will often need to create new cells. At the end of a worksheet this is done automatically: there is always a set of blank lines at the bottom of a <i>.sagews</i> file. If you somehow manage to evaluate the last line, the page should refresh with a new blank line below the output.
@@ -41,6 +42,8 @@ The other way to make a new cell also works in the middle of a worksheet. Use yo
 
 Try it now. Make a new cell between the ones below.
 ︡2b6c649c-e5b2-4236-b5a4-43e0736d1925︡{"html":"<p>To keep things rolling, you will often need to create new cells. At the end of a worksheet this is done automatically: there is always a set of blank lines at the bottom of a <i>.sagews</i> file. If you somehow manage to evaluate the last line, the page should refresh with a new blank line below the output.</p>\n\n<p>The other way to make a new cell also works in the middle of a worksheet. Use your mouse or trackpad to hover over one of the thin grey horizontal rulings which separate cells. The ruling should get highlighted in blue. At this point, clicking the highlighted ruling will create a new cell directly below that ruling.</p>\n\n<p>Try it now. Make a new cell between the ones below.</p>\n"}︡
+︠c8eed9a8-7387-4717-8042-57b867efe33f︠
+
 ︠22707caf-a45b-4edc-adeb-d3f6ce8ad86c︠
 print('Do not touch this cell. Make a new one just below it!')
 ︡54548497-c025-473e-8185-17180a5e7674︡{"stdout":"Do not touch this cell. Make a new one just below it!\n"}︡
@@ -51,10 +54,9 @@ It is possible to delete input cells, too. To do so, simply empty the cell and p
 Note that pressing [Backspace] at the beginning of a cell will also remove the horizontal bar between cells. This joins the two input cells into a single one. That trick might be useful to you at some point.
 
 ︡f459a899-a7e5-4b5a-8e65-44018d266137︡{"html":"<p>It is possible to delete input cells, too. To do so, simply empty the cell and press [Backspace] or [Delete] in the active, empty cell. Try deleting a one or two of the cells just below.</p>\n\n<p>Note that pressing [Backspace] at the beginning of a cell will also remove the horizontal bar between cells. This joins the two input cells into a single one. That trick might be useful to you at some point.</p>\n"}︡
+
 ︠47414f7d-e648-49d8-8871-41e21cf62ba8︠
 
-︠5dadf9fc-fe76-4258-88c8-5238c75c5c62︠
-"not empty, empty me first to delete me"
 ︠a2a3a8ce-1593-44fc-a33c-7dbc92f6f6e2︠
 
 ︠a702b99e-7120-425e-8f20-3a3f69d41de9i︠
