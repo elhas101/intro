@@ -1,0 +1,64 @@
+Task 4: 
+.setting up the python path to be used
+.file version is useful to know which iteration is currently used in case we would like to see the history of changes in github
+.an iterator is a changing value which depends on an array
+.range creates the list in memoery between the two values
+	xrange generates the list lazily
+.yield is like return except that it returns a generator
+.the code prints the fibonacci sequence
+[4,
+ 64,
+ 1156,
+ 20736,
+ 372100,
+ 6677056,
+ 119814916,
+ 2149991424,
+ 38580030724,
+ 692290561600,
+ 12422650078084,
+ 222915410843904,
+ 4000054745112196,
+ 71778070001175616,
+ 1288005205276048900,
+ 23112315624967704576L,
+ 414733676044142633476L,
+ 7442093853169599697984L,
+ 133542955681008651930244L,
+ 2396331108404986135046400L,
+ 43000416995608741778904964L,
+ 771611174812552365885242944L,
+ 13846000729630333844155468036L,
+ 248456401958533456828913181696L,
+ 4458369234523971889076281802500L,
+ 80002189819472960546544159263296L,
+ 1435581047515989317948718584936836L,
+ 25760456665468334762530390369599744L,
+ 462252638930914036407598308067858564L,
+ 8294787044090984320574239154851854400L,
+ 148843914154706803733928706479265520644L,
+ 2670895667740631482890142477471927517184L,
+ 47927278105176659888288635888015429788676L]
+
+.L suffix yields long integers
+
+.the code prints the cos, sin and tan values of pi/4: 
+[0.4999999999999999, 0.5000000000000001, 0.9999999999999998]
+
+.trig is a dictionary object
+
+. the function prints 
+[0.0, 0.4999999999999999, 1.0, 1.4997597826618576e-32]
+
+. lambda acts as a return 
+
+. the class returns:
+I, George, do roar.
+I, Napoleon, do roar.
+brown
+black
+
+.format takes a string and a set of variables and prints them within the string
+
+.decorator work to modify the function code before or after it is declared
+
