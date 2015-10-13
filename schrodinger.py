@@ -48,6 +48,6 @@ class Schrodinger(object):
      p = np.conjugate(a) * a
      return p / p.sum()
 
- def plot_prob(self.s, w = wavefunction() ):
+ def plot_prob(self.s, w):
      
     
